@@ -1,11 +1,9 @@
 ## References
 #### Books
-- Digital Principles and Applications, by Leach and Malvino.
-- Digital Logic Design, Leach, by Malvino, and Saha
-- Engineering Digital Design, by Richard F. Tinder.
-- Digital Logic and Computer Design, by M. Morris Mano
-- Digital Systems: Principles and Applications, Neal S. Widmer , Ronald J. Tocci , Gregory L. Moss
+-Discrete-Time Signal Processing, A. V. Oppenheim and R. W. Schafer, Englewood Cliffs, NJ: Prentice Hall, 1989.
+-2.C. E. Shannon, "Communication in the presence of noise," Proc. Institute of Radio Engineers, vol. 37, no. 1, pp. 10-21, Jan 1949.
+-3.H. Nyquist, "Certain topics in telegraph transmission theory," Trans. AIEE, vol. 47, pp. 617-644, Apr 1928.
 
 #### Video Lectures
-- [Encoders and Decoders](http://nptel.ac.in/courses/117106114)
-- [Encoders and Decoders](http://nptel.ac.in/courses/117106086)
+- [Digital Signal Processing Introduction](https://nptel.ac.in/)
+
