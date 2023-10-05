@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Study of Transform domain properties and its use</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/adi.css">
+    <link rel="stylesheet" href="./css/adik.css">
+    <!--
+    This HTML file is designed and developed by
+    Aditya Kameswara Rao Nandula
+    Senior Research Fellow,
+    Virtual Labs IIT Kharagpur.
+    LinkedIn: https://www.linkedin.com/in/akraonandula/
+    Updated on: 06-05-2022
+  -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71919978-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-71919978-6');
+</script>
+  </head>
+  <body>
+    <div class="container ce">
+      <div class="container">
+        <div class="row">&nbsp;</div>
+        <div class="row">
+          <div class="col-sm-12">
+            <header>
+              <div class="row ce ">
+                <div class="col-sm-3 "> <img src="./images/vlabs.png" class="img-fluid pi1"
+                    alt="VLabs Logo">
+                  </div>
+                <div class="col-sm-6  tex">
+                  <h1><strong> Virtual Labs <br>
+                      IIT Kharagpur</strong></h1>
+                </div>
+                <div class="col-sm-3 ">
+                   <img src="./images/iitkgp.png" class=" img-fluid pi2" alt="IIT Kharagpur Logo">
+                </div>
+              </div>
+
+              <hr>
+              <div class="row">
+                <div class="col-sm-12">
+                    <h3>Study of Transform domain properties and its use</h3>
+                </div>
+              </div>
+              <hr>
+            </header>
+          </div>
+        </div>
+        <div class="container ce">
+          <div class="row bg-secondary text-white p-3 my-3">
+            <div id="qqd" class="col-sm-3"></div>
+            <div class="col-sm-6"></div>
+            <!--<div  id="qqsc" class="col-sm-3"></div>-->
+            <div id="qqt" class="col-sm-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div class="container" id="cont">
+        <div class="row Insta ce">
+        <div class="col-sm-12">
+          <div class"container Inst">
+            <ol class="se">
+              <p class="ce Inst"><strong> Instructions</p> </strong>
+              <li class="se">Select number of Samples </li>
+              <li class="se">Select the gain of the input ramp signal</li>
+              <li class="se">Select the frequency of the signal(f<sub>m</sub>) for the input signal(x(n)).</li>
+              <li class="se">Select DFT ponit for Ramp signal</li>
+              <li class="se">Click on the "Plot spectrum" buttton to observe the Phase spectrum of Ramp signal on graph</li>
+              <li><strong>
+                Note:
+                <ul>
+                  <li>Make sure always number of samples equal to DFT Points </li>
+                  <!-- <li>Make sure always input signal frequency(f<sub>m</sub> and f<sub>s</sub>) >0 Hz  </li>
+                  <li>To change the values just scroll by hovering on the knob.</li>
+                  <li>Make sure that you kept equal time/div in the "Channel 1" and "Channel 2". </li> -->
+                </ul>
+                </strong>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <h2>Phase spectrum of Discrete fourier tranform of Unit Ramp Signal</h2>
+  
+  <h2>Input Parameters</h2>
+  
+  <label for="num-samples">Number of Samples:</label>
+  <input type="number" id="num-samples" value="16"><br><br>
+  
+  <label for="gain">Gain (a):</label>
+  <input type="number" id="gain" value="3"><br><br>
+  
+  <label for="dft-points">DFT Points:</label>
+  <input type="number" id="dft-points" value="16"><br><br>
+  
+  <button onclick="plotSignals()">Plot Signals</button>
+  
+  <div id="charts-container"></div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+          
+      </div> -->
+
+       <div class="container">
+        <div class="jumbotron  ce">
+          <footer>
+            <div class="row ce">
+              <div class="col-sm-12">
+                <p><i> Copyright ©2021 Virtual labs IIT Kharagpur</i><br>
+                <a href="../../license/index.html" target="_blank"> Licensing Terms </a></p>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div> --> -->
+
+
+    </div>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/popper.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/plotly.js"></script>
+    <script src="./js/plain-draggable.js"></script>
+    <script src="./js/leaderline.min.js"></script>
+    <script src="./js/d3.v5.js"></script>
+    <script src="./js/dsp.js"></script>
+
+    <script type="text/javascript" src="./js/adidspex5s1.js"></script>
+    <script type="text/javascript" src="./js/knob.js"></script>
+    <script type="text/javascript" src="./js/ui.js"></script>
+    <script type="text/javascript" src="./js/ui.el.js"></script>
+    <script type="text/javascript" src="./js/p1.js"></script>
+    <script type="text/javascript" src="./js/adik.js"></script>
+    <script type="text/javascript" src="./js/tex-chtml-full.js"> </script>
+          <svg>
+              <filter id="dropshadow" height="150%" width="150%">
+                  <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+                  <feOffset dx="0" dy="3" result="offsetblur"/>
+                  <feMerge>
+                      <feMergeNode/>
+                      <feMergeNode in="SourceGraphic"/>
+                  </feMerge>
+              </filter>
+          </svg>
+  </body>
+</html>
