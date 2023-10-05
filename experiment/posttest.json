@@ -2,12 +2,46 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The impulse function is denoted by _______",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "u(t)",
+        "b": "δ(t)",
+        "c": "u(t) or δ(t)",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The impulse function is _______ when t=0",
+      "answers": {
+        "a": "One",
+        "b": "Zero",
+        "c": "Infinity",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Whenever the amplitude of step function is equivalent to one then that is ______ signal",
+      "answers": {
+        "a": "Unit",
+        "b": "Step",
+        "c": "Impulse",
+        "d": "None of the above"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -19,20 +53,37 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "When t≥0, the unit signal amplitude must be ________",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Unit",
+        "b": "Step",
+        "c": "Impulse",
+        "d": "None of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "One",
+        "b": "Zero",
+        "c": "Infinity",
+        "d": "None of the above"
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "When t<0, the unit signal amplitude must be ________",
+      "answers": {
+        "a": "Unit",
+        "b": "Step",
+        "c": "Impulse",
+        "d": "None of the above"
+      },
+      "explanations": {
+        "a": "One",
+        "b": "Zero",
+        "c": "Infinity",
+        "d": "None of the above"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
