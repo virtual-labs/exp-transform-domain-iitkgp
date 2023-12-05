@@ -40,9 +40,13 @@ time domain is equivalent to the circular shift of the DFT by m units in frequen
 <p  class="heading-content">The multiplication of DFTs of two sequences is equivalent to the circular convolution of the two sequences in the time 
 domain</p>
 <p>If</p>
+
 $$DFT[X_1(N)]=X_1(K)$$
+
 $$DFT[X_2(N)=X_2(K)]$$
+
 $$x_1(n)(N)x_2(n)=x_1(k)x_2(k)$$
+
 <p><b>(N)</b> is the symbol for circular convolution of two sequences i.e. <b>x<sub>1</sub>(n)</b> and <b>x<sub>2</sub>(n)</b></p> 
 <p>Parseval's Theorem</p>
 <p>For complex-valued sequences <b>x(n)</b> and <b>y(n)</b>, in general, if</p>
@@ -50,11 +54,11 @@ $$x_1(n)(N)x_2(n)=x_1(k)x_2(k)$$
 <p style="text-align:center">DFT[y(n)]=x(k)</p>
 <p>Then</p>
 
-$$sum_(n=0)^(N-1)x(n)y*(n)=1/N sum_(k=0)^(N-1)x(k)Y*(k)$$
+$$\sum_{n=0}^{N-1}x(n)y*(n)=\frac{1}{N} \sum_{k=0}^{N-1}x(k)Y*(k)$$
 
 <p>This expression is the general form of Parseval's theorem. In the special where <b>y(n)</b> = <b>x(n)</b>, reduced to</p>
 
-$$sum_(n=0)^(N-1)|x(n)|^2=1/N sum_(k=0)^(N-1)|x(k)|^2$$
+$$\sum_{n=0}^{N-1}|x(n)|^2=\frac{1}{N} \sum_{k=0}^{N-1}|x(k)|^2$$
 
 <p>which expresses the energy in the finite-duration sequence <b>x(n)</b> in term of the frequency components <b>{X(k)}</b>.</p>
 </div>
