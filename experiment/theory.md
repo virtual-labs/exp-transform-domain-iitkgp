@@ -8,7 +8,7 @@ In this experiment, we consider some of the properties of DFT for finite-duratio
 <p>Linearity Property</p>                            
 <p>If <b>x<sub>1</sub>(n)</b> and <b>x<sub>2</sub>(n)</b> have N-point DFTs <b>X<sub>1</sub>(k)</b>and <b>X<sub>2</sub>(k)</b>, respectively,</p>
 
-$$ax_1(n)+bx_2(n) \stackrel{DFT}\hArr  ax_1(k)+bx_2(k)|$$
+$$ax_1(n)+bx_2(n) \stackrel{DFT}\hArr ax_1(k)+bx_2(k)|$$
 
 <p  class="heading-content">In using this property, it is important to ensure that the DFTs are the same length. If <b>x<sub>1</sub>(n)</b>and <b>x<sub>2</sub>(n)</b> have different
 lengths, the shorter sequence must be padded with zeros in order to make it the same length as the longer sequence. For an example, if <b>x<sub>1</sub>(n)</b> is of length <b>N1</b> and <b>x<sub>2</sub>(n)</b> is of length <b>N2</b> with <b>N2</b> > <b>N1</b>.
