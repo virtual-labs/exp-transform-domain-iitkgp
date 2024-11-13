@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "The period of the signal x(t) = 10 sin 12 π t + 4 cos18 π t is ____________",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "π/4",
+        "b": "1/6",
+        "c": "1/9",
+        "d": "1/3"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,50 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "If G(f) represents the Fourier Transform of a signal g (t) which is real and odd symmetric in time, then G (f) is ____________",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Complex",
+        "b": "Imaginary",
+        "c": "Real",
+        "d": "Real and non- negative"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "If R1 is the region of convergence of x (n) and R2 is the region of convergence of y(n), then the region of convergence of x (n) convoluted y (n) is",
+      "answers": {
+        "a": "R1 + R2",
+        "b": "R1 – R2",
+        "c": "R1 ∩ R2",
+        "d": "R1 ∪ R2"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The system under consideration is an RC low-pass filter with R = 1 kΩ and C = 1 µF. Let H (f) denotes the frequency response of the RC, low-pass filter. Let f1 be the highest frequency, such that 0≤|f|≤f1, |H(f1)|H(0)≥0.95 Then f1 is ___________",
+      "answers": {
+        "a": "327.8",
+        "b": "163.9",
+        "c": "52.2",
+        "d": "104.4"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",

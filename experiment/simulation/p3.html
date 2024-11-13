@@ -66,19 +66,64 @@
       </div>
     </div>
 
-      <div class="container" >
-        <div class="row ">
+      <div class="container" id="cont">
+        <div class="row Insta ce">
         <div class="col-sm-12">
-         <button id="part1" class = "btn btn-primary"  onclick="window.open('p1.html')" target="_blank"> Part 1</button>
-         <button id="part2" class = "btn btn-primary"  onclick="window.open('p2.html')" target="_blank"> Part 2</button>
-         <button id="part3" class = "btn btn-primary"  onclick="window.open('p3.html')" target="_blank"> Part 3</button>
+          <div class"container Inst">
+            <ol class="se">
+              <p class="ce Inst"><strong> Instructions</p> </strong>
+              <li class="se">Select number of Samples </li>
+              <li class="se">Select the gain of the input ramp signal</li>
+              <li class="se">Select DFT ponit for Ramp signal</li>
+              <li class="se">Click on the "Plot spectrum" buttton to observe the Magnitude and Phase spectrum of Ramp signal on graph</li>
+              <li><strong>
+                Note:
+                <ul>
+                  <li>Make sure always number of samples equal to DFT Points </li>
+                  <!-- <li>Make sure always input signal frequency(f<sub>m</sub> and f<sub>s</sub>) >0 Hz  </li>
+                  <li>To change the values just scroll by hovering on the knob.</li>
+                  <li>Make sure that you kept equal time/div in the "Channel 1" and "Channel 2". </li> -->
+                </ul>
+                </strong>
+              </li>
+            </ol>
+          </div>
         </div>
       </div>
-            
-              
-            </div>
-           
+      <h2> Magnitude and Phase Spectrum of circular Convolution of Unit Ramp Signal </h2>
+  
+      <h2>Parameters</h2>
+      
+      <label for="shift">Shift:</label>
+      <input type="number" id="shift" value="9"><br><br>
+      
+      <label for="dft-points">DFT Points:</label>
+      <input type="number" id="dft-points" value="16"><br><br>
+      
+      <label for="num-samples">Number of Samples:</label>
+      <input type="number" id="num-samples" value="16"><br><br>
+      
+      <button onclick="plotSpectrum()">Plot Spectrum</button>
+      
+      <div id="charts-container"></div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+      <!-- <div class="container">
+        <div class="row">
+          <div class="col-sm-12"> &nbsp; 
+            <h4>Developer and Integration Engineer:</h4>&nbsp;<br>
+                <div class="card" style="width:400px">
+                  <!--  <img class="card-img-top" src="adi.jpg" alt="Aditya image" style="width:100%"> -->
+                  <!-- <div class="card-body">
+                    <h6 class="card-title">Aditya Kameswara Rao Nandula</h6>
+                    <h7 class="card-text">Senior Research Fellow <br> Virtual Labs<br> IIT Kharagpur</h7>
+                    <!--  <a href="#" class="btn btn-primary">See Profile</a> -->
+                  <!-- </div> -->
+                <!-- </div>&nbsp;<br>
+            &nbsp; </div> -->
+        </div> -->
+      </div> -->
 
       <div class="container">
         <div class="jumbotron  ce">
@@ -95,9 +140,6 @@
 
 
     </div>
-    <script>
-        
-    </script>
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/popper.min.js"></script>
     <script type="text/javascript" src="./js/bootstrap.min.js"></script>
@@ -105,7 +147,8 @@
     <script src="./js/plain-draggable.js"></script>
     <script src="./js/leaderline.min.js"></script>
     <script src="./js/d3.v5.js"></script>
-    <script type="text/javascript" src="./js/adidspex5s.js"></script>
+    <script src="./js/dsp.js"></script>
+    <script type="text/javascript" src="./js/adidspex5s2.js"></script>
     <script type="text/javascript" src="./js/knob.js"></script>
     <script type="text/javascript" src="./js/ui.js"></script>
     <script type="text/javascript" src="./js/ui.el.js"></script>
