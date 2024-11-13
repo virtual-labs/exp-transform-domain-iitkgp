@@ -8,9 +8,10 @@ In this experiment, we consider some of the properties of DFT for finite-duratio
 <p>Linearity Property</p>                            
 <p>If <b>x<sub>1</sub>(n)</b> and <b>x<sub>2</sub>(n)</b> have N-point DFTs <b>X<sub>1</sub>(k)</b>and <b>X<sub>2</sub>(k)</b>, respectively,</p>
 
-$$
-ax_1(n) + bx_2(n) \stackrel{\text{DFT}}{\Longleftrightarrow} ax_1(k) + bx_2(k)
-$$
+
+<p>
+    $$a x_1(n) + b x_2(n) \stackrel{\text{DFT}}{\Longleftrightarrow} a x_1(k) + b x_2(k)$$
+</p>
 
 
 <p  class="heading-content">In using this property, it is important to ensure that the DFTs are the same length. If <b>x<sub>1</sub>(n)</b>and <b>x<sub>2</sub>(n)</b> have different
@@ -66,5 +67,6 @@ $$\sum_{n=0}^{N-1}|x(n)|^2=\frac{1}{N} \sum_{k=0}^{N-1}|x(k)|^2$$
 <p>which expresses the energy in the finite-duration sequence <b>x(n)</b> in term of the frequency components <b>{X(k)}</b>.</p>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>    
